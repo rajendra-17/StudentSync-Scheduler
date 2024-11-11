@@ -1,0 +1,66 @@
+#login_form{
+    background-color: aliceblue;
+    padding: 2% 4%;
+    border-radius: 5%;
+    width: 40%;
+}
+#signup_form{
+    background-color: aliceblue;
+    padding: 2% 4%;
+    border-radius: 5%;
+    width: 50%;
+}
+#sign_log{
+    text-decoration: none;
+    color: darkblue;
+}
+
+#request_table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    /* border: 1px solid black; */
+    border: 1px solid rgb(132, 206, 250);
+    border-radius: 2px;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: aliceblue;
+  }
+
+  tr:nth-child(odd) {
+    /* background-color: rgb(252, 215, 239); */
+    background-color: rgb(195, 234, 195);
+  }
+
+.brsmall {
+    display: block;
+    margin-bottom: 0.7em;
+}
+textarea{
+    width: 100%;
+}
+
+@media screen and (max-width : 800px) {
+    #login_form{
+        width: 70%;
+    }
+}
+
+#message{
+    color: red;
+    text-align: center;
+}
+
+
+#approve{
+    background-color: rgb(30, 176, 30);
+}
+
+#reject{
+    background-color: rgb(230, 86, 86);
+}
